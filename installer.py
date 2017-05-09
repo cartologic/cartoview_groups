@@ -1,15 +1,15 @@
-__author__ = 'author'
+__author__ = 'hisham'
 
 info = {
-    "title": "Cartoview Simple App",
-    "description": "Cartoview Simple App",
+    "title": "Cartoview Groups",
+    "description": "Cartoview Groups",
     "author": 'Cartologic',
     "home_page": 'http://cartoview.org/apps/cartoview_groups',
     "help_url": "http://cartoview.org/apps/cartoview_groups/help/",
-    "tags": ['app', 'map', 'viewer'],
+    "tags": ['app', 'groups'],
     "licence": 'BSD',
     "author_website": "http://www.cartoview.org",
-    "single_instance": False
+    "single_instance": True
 }
 
 
