@@ -1,0 +1,11 @@
+{% if request.user.is_authenticated %}
+    {% if request.user.group_list_all %}
+        <meta http-equiv="REFRESH" content="0;url={% url 'group_detail' slug=request.user.group_list_all.first.slug %}">
+
+    {% else %}
+        {% include 'groups/group_list.html' %}
+    {% endif %}
+{% else %}
+    {% include 'cartoview_groups/home.html' %}
+{% endif %}
+
